@@ -12,13 +12,12 @@ For more details, please refer to the [paper].
 
 ## Highlights
 **Owl-VL** unlocks the new focused interaction capabilities of multi-modal models, and can handle cases involving:
-1. adaptive responses to different focuses: generating distinct outputs for the same image based on varied input 关注点；
-2. cross-modal positional relationship capture: leveraging M-Rope to effectively capture positional relationships between different modalities;
-3. large-scale street view application: being applicable in large-scale street view environments, providing possibilities for AI assistants in wearable devices such as smart glasses.
+1. **adaptive responses to different focuses**: generating distinct outputs for the same image based on varied point prompt；
+2. **cross-modal positional relationship capture**: leveraging M-Rope to effectively capture positional relationships between different modalities;
+3. **large-scale street view application**: being applicable in large-scale street view environments, providing possibilities for AI assistants in wearable devices such as smart glasses.
 
 <p align="center"> <img src="imgs/M-Rope.png" width="100%"> </p>
 
-**owl** also demonstrates robust zero-shot capability when trained exclusively on reasoning-free datasets. In addition, fine-tuning the model with merely 239 reasoning segmentation image-instruction pairs results in further performance enhancement.
 
 ## Experimental results
 <p align="center"> <img src="imgs/result.png" width="80%"> </p>
