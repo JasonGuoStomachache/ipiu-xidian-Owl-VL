@@ -32,6 +32,8 @@ pip install flash-attn --no-build-isolation
 
 ### Pre-trained weights
 
+You can contact us via [email](guojiaxuan@stu.xidian.edu.cn) to obtain the trained owl-vl weights, or you can reproduce our training process through the following steps.
+
 #### LLaVA
 To train owl-7B or 13B, you need to follow the [instruction](https://github.com/haotian-liu/LLaVA/blob/main/docs/MODEL_ZOO.md) to merge the LLaVA delta weights. Typically, we use the final weights `LLaVA-Lightning-7B-v1-1` and `LLaVA-13B-v1-1` merged from `liuhaotian/LLaVA-Lightning-7B-delta-v1-1` and `liuhaotian/LLaVA-13b-delta-v1-1`, respectively. For Llama2, we can directly use the LLaVA full weights `liuhaotian/llava-llama-2-13b-chat-lightning-preview`.
 
@@ -87,7 +89,7 @@ Note: the `v1` model is trained using both `train+val` sets, so please use the `
 
 ## Dataset
 
-The resulting Point-guided VQA dataset consists of two parts: description and complex reasoning. In the second stage of p-tuning, description VQA is used to train the virtual tokens that are replaced when there is no text prompt. The training data (10%) can be obtained [here].
+The resulting Point-guided VQA dataset consists of two parts: description and complex reasoning. In the second stage of p-tuning, description VQA is used to train the virtual tokens that are replaced when there is no text prompt. The training data (10%) and validation data can be obtained [here](https://drive.google.com/drive/folders/1mrU1RoApi8enYqWZ9c3UAQyM3XSjLy63?usp=drive_link).
 
 <p align="center"> <img src="imgs/dataset.png" width="100%"> </p>
 
